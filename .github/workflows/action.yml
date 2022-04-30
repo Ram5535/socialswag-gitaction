@@ -8,7 +8,7 @@ jobs:
     steps:
     -  name: executing remote ssh
        uses: appleboy/ssh-action@master
-       with;
+       with:
          host: ${{ secrets.HOST }}
          username: ${{ secrets.USERNAME}}
          password: ${{ secrets.PASSWORD }}
